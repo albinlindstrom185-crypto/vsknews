@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Senaste nytt om Västerås SK på vsknews.">
+<title>Nyheter | vsknews</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="nyheter-extra.css">
+<link rel="icon" type="image/png" href="https://www.vskfotboll.nu/wp-content/uploads/2024/05/vsklogga.png">
+</head>
+<body>
+<div class="topbar"><span>DEN GRÖNVITA HEMSIDAN</span><span>VSKNEWS • ALLT OM VÄSTERÅS SK</span></div>
+<header><div class="navbar">
+<a class="logo" href="index.html"><div class="crest">VSK</div><div class="brand">vsk<span>news</span></div></a>
+<nav><a href="index.html">Hem</a><a class="active" href="nyheter.html">Nyheter</a><a href="matcher.html">Matcher</a><a class="follow" href="sociala-medier.html">Följ oss</a></nav>
+</div></header>
+
+<main>
+<section class="news-masthead"><div class="news-masthead-inner">
+<p class="eyebrow">VSKNEWS • NYHETER</p>
+<h1>Allt om VSK.<br><span>Samlat på ett ställe.</span></h1>
+<p class="masthead-intro">Senaste nytt från det grönvita lägret – från spelartruppen och matcherna till arenan och supportrarna.</p>
+</div></section>
+
+<section class="news-content">
+<div class="news-toolbar"><div><p class="eyebrow">HÅLL DIG UPPDATERAD</p><h2>Senaste nyheterna</h2></div><span class="editorial-label">VSKNEWS REDAKTION</span></div>
+<form class="news-search" id="news-search-form" role="search" onsubmit="return false;">
+<label for="news-search-input">Sök bland artiklar</label>
+<div class="news-search-field"><input id="news-search-input" type="search" placeholder="Sök rubrik eller ämne…" autocomplete="off"><button type="button" id="clear-news-search" aria-label="Rensa sökning">Rensa</button></div>
+<p id="news-search-status" aria-live="polite">Skriv för att hitta en artikel.</p>
+</form>
+
+<nav class="category-nav" aria-label="Nyhetskategorier">
+</nav>
+
+<section id="alla-nyheter" class="news-list" aria-label="Alla nyheter">
+<article class="news-row" id="huvudnyhet">
+<img class="news-thumb" src="https://www.vskfotboll.nu/wp-content/uploads/2025/11/falkenberg-vsk-01112025-188-scaled.jpg" alt="Firande">
+<div class="news-row-copy"><p class="article-category-label">SENASTE NYTT <span>•</span> 1 DEC</p>
+<h2><a href="artikel1.html">Vi är äntligen igång!</a></h2>
+<p>Vi berättar lite om bakgrounden till varför vi tog detta steget, och vi svarar på några frågor ni ställt!</p></div>
+</article>
+<div class="section-heading"><h2>Fler nyheter</h2><span>DET SENASTE GRÖNVITA</span></div>
+<article class="news-row" id="spelarnytt">
+<img class="news-thumb" src="https://images.unsplash.com/photo-1521412644187-c49fa049e84d?auto=format&fit=crop&w=500&q=80" alt="Fotbollsspelare på planen">
+<div class="news-row-copy"><p class="article-category-label">SPELARNYTT <span>•</span> 3 OKT</p><h3><a href="artikel2.html">Senaste nytt kring VSK:s trupp</a></h3><p>Samla spelaruppdateringar, skadeläge och andra nyheter om truppen här.</p></div>
+</article>
+<article class="news-row" id="infor-matchen">
+<img class="news-thumb" src="https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=500&q=80" alt="Fotbollsmatch på en arena">
+<div class="news-row-copy"><p class="article-category-label">INFÖR MATCHEN <span>•</span> 2 OKT</p><h3><a href="artikel3.html">Det här behöver du veta inför nästa match</a></h3><p>Motståndare, matchfakta och det viktigaste inför avspark.</p></div>
+</article>
+<article class="news-row" id="arenanytt">
+<img class="news-thumb" src="https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&w=500&q=80" alt="Fotbollsarena">
+<div class="news-row-copy"><p class="article-category-label">ARENANYTT <span>•</span> 1 OKT</p><h3><a href="artikel4.html">Senaste nytt om VSK:s arena</a></h3><p>Nyheter om arenan, publikupplevelsen och utvecklingen runt klubben.</p></div>
+</article>
+<article class="news-row" id="landslagskollen">
+<img class="news-thumb" src="https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=500&q=80" alt="Fotbollsträning">
+<div class="news-row-copy"><p class="article-category-label">LANDSLAGSKOLLEN <span>•</span> 30 SEP</p><h3><a href="artikel5.html">Så går det för VSK-spelarna i landslagen</a></h3><p>Följ spelare med landslagsuppdrag och deras insatser.</p></div>
+</article>
+<article class="news-row" id="veckans-snackis">
+<img class="news-thumb" src="https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&w=500&q=80" alt="Fotbollsplan med läktare">
+<div class="news-row-copy"><p class="article-category-label">VECKANS SNACKIS <span>•</span> 29 SEP</p><h3><a href="artikel6.html">Vad pratar VSK-supportrarna om just nu?</a></h3><p>En plats för veckans diskussion, frågor och grönvita spaningar.</p></div>
+</article>
+<p class="editor-note">Byt ut exempelrubriker, datum, ingresser och bilder mot dina egna uppgifter. Kontrollera alltid fakta innan du publicerar en nyhet.</p>
+</section>
+</main>
+
+<footer><div class="footer-grid">
+<div><h3>vsknews</h3><p>En grönvit nyhetssida för dig som vill följa Västerås SK.</p></div>
+<div><h3>Navigera</h3><a href="index.html">Hem</a><a href="nyheter.html">Nyheter</a><a href="matcher.html">Matcher</a></div>
+<div><h3>Socialt</h3><a href="sociala-medier.html">Instagram</a><a href="sociala-medier.html">TikTok</a></div>
+</div><div class="copy">© 2026 vsknews • En grönvit nyhetssida</div></footer>
+
+<script>
+(function () {
+  const input = document.getElementById('news-search-input');
+  const clearButton = document.getElementById('clear-news-search');
+  const status = document.getElementById('news-search-status');
+  const rows = Array.from(document.querySelectorAll('.news-list .news-row'));
+  const sectionHeading = document.querySelector('.news-list .section-heading');
+  const note = document.querySelector('.news-list .editor-note');
+
+  function searchArticles() {
+    const query = input.value.trim().toLocaleLowerCase('sv');
+    let visible = 0;
+    rows.forEach(function (row) {
+      const matches = row.textContent.toLocaleLowerCase('sv').includes(query);
+      row.hidden = !matches;
+      if (matches) visible++;
+    });
+    if (sectionHeading) sectionHeading.hidden = query.length > 0;
+    if (note) note.hidden = query.length > 0;
+    status.textContent = query ? (visible ? visible + (visible === 1 ? ' artikel hittades.' : ' artiklar hittades.') : 'Inga artiklar hittades. Prova ett annat sökord.') : 'Skriv för att hitta en artikel.';
+  }
+  input.addEventListener('input', searchArticles);
+  clearButton.addEventListener('click', function () { input.value = ''; searchArticles(); input.focus(); });
+})();
+</script>
+
+</body>
+</html>
